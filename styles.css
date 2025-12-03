@@ -457,3 +457,45 @@ footer a {
     background-color: #ffe066;
     transform: scale(1.05);
 }
+
+/* nem eu mais sei oq é isso */
+
+.pagina-conteudo {
+    max-width: 900px;
+    background: white;
+    color: black;
+    margin: 80px auto;
+    padding: 50px 70px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.pagina-conteudo h1,
+.pagina-conteudo h2,
+.pagina-conteudo h3 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.pagina-conteudo p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #222;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background: #555;
+}
